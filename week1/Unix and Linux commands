@@ -1,0 +1,223 @@
+
+                         *** BASIC UNIX COMMANDS ***
+
+--->UNIX USERS Commands
+*1.id - print user identity
+ user@raju:~$ id       
+ uid=1000(user) gid=1000(user) groups=1000(user),4(adm),24(cdrom),27(sudo),     30(dip),46(plugdev),120(lpadmin),132(lxd),133(sambashare)
+
+*2.groups - it will show which groups user belongs to
+ user@raju:~$ groups      
+ user adm cdrom sudo dip plugdev lpadmin lxd sambashare
+ 
+*3.who - find out who logged into the system
+ user@raju:~$ who
+ user     :0           2024-04-24 18:28 (:0)
+
+*4.whoami - shows your username
+ user@raju:~$ whoami       
+ user
+
+*5.last - show history of logins into the system
+ user@raju:~$ last
+ user     :0           :0               Wed Apr 24 21:01   still logged in
+ reboot   system boot  5.15.0-105-gener Wed Apr 24 21:01   still running
+ user     :0           :0               Wed Apr 24 18:28 - down   (00:59)
+ reboot   system boot  5.15.0-105-gener Wed Apr 24 18:27 - 19:27  (01:00)
+ user     :0           :0               Wed Apr 24 15:47 - down   (00:12)
+ ................................
+
+*6.passwd - change user password
+ user@raju:~$ passwd
+Changing password for user.
+Current password: .....
+New password: .....
+Retype new password: .....
+passwd: password updated successfully
+
+---> UNIX FILE operations
+
+*7.pwd - confirm current directory
+ user@raju:~$ pwd
+ /home/user
+ 
+*8.mkdir -  make new directory
+user@raju:~$ mkdir f1 f2
+
+*9.remove directories in unix
+user@raju:~$ rmdir f1
+
+*10.nslookup google.com - server address
+user@raju:~$ nslookup google.com
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+** server can't find google.com: SERVFAIL
+
+*11.cp-copy files
+user@raju:~$ cp t1 t2
+
+*12.cd - change directory
+user@raju:~$ cd
+
+---> CONTROL commands
+1.control-c:terminates currently running foreground process
+2.control-d:terminates the curremtly running login or terminal
+3.control-z:suspends the  currently running foreground process
+
+*13. ps - displays a snapshot of all current processes
+user@raju:~$ ps
+    PID TTY          TIME CMD
+   2058 pts/0    00:00:00 bash
+   3396 pts/0    00:00:00 ps
+user@raju:~$ ps -ef
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 18:27 ?        00:00:00 /sbin/init splash
+root           2       0  0 18:27 ?        00:00:00 [kthreadd]
+root           3       2  0 18:27 ?        00:00:00 [rcu_gp]
+user        2193    1253  0 18:49 ?        00:00:04 evince /home/user/Desktop/IT/exproj.pdf
+user        2198    1253  0 18:49 ?        00:00:00 /usr/libexec/evinced
+user        3363    1253  1 19:12 ?        00:00:02 evince /home/user/Desktop/IT/week 1 it workshop.pdf
+root        3381       2  0 19:13 ?        00:00:00 [kworker/0:3-pm]
+user        3399    2058  0 19:15 pts/0    00:00:00 ps -ef
+
+
+
+*14. top - displays a live status of current processes
+  user@raju:~$ top
+  top - 19:15:55 up 48 min,  1 user,  load average: 0.43, 0.45, 0.42
+  Tasks: 219 total,   1 running, 218 sleeping,   0 stopped,   0 zombie
+  %Cpu(s):  0.6 us,  0.4 sy,  0.0 ni, 98.7 id,  0.3 wa,  0.0 hi,  0.0 si,  0.0 st
+  MiB Mem :   7716.4 total,   5037.8 free,   1403.7 used,   1274.9 buff/cache
+  MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   5846.1 avail Mem 
+  oom_reaper                        
+     42 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback
+     
+*15. bg - resume a background suspended a job
+  user@raju:~$ bg
+  bash: bg: current: no such job
+
+*16. history - print history of commands in the current session
+user@raju:~$ history
+   19  clear
+   20  cat file1
+   21  cat grepfile.txt
+   22  cat grepfile1
+   ......
+  512  mkdir f1 f2
+  513  rmdir f1
+  514  ps
+  515  ps -ef
+  516  top
+  517  bg
+  518  history
+  
+*17. clear - clear a terminal screen
+
+*18. touch - creates empty files
+ user@raju:~$ touch t1 t2
+
+*19. cat - create files with entered content
+  user@raju:~$ cat>t3
+  kavya hello
+  welcome
+^Z
+[1]+  Stopped                 cat > t3
+
+*20. cp - copy files
+user@raju:~$ cp t3 t1
+
+*21. mv - move files or rename files
+user@raju:~$ mv t3 t1
+
+*22. rm - Remove files and directories
+user@raju:~$ rm t2
+
+*23. mkdir - Make a directory
+user@raju:~$ mkdir d1
+
+*24. cd - Change directory
+user@raju:~$ cd d1
+
+*25. pwd - Print the present working directory
+user@raju:~/d1$ pwd
+/home/user/d1
+
+*26. ls -  list directory contents
+user@raju:~/d1$ ls -alt
+total 8
+drwxrwxr-x  2 user user 4096 Apr 24 19:21 .
+drwxr-xr-x 28 user user 4096 Apr 24 19:21 ..
+user@raju:~/d1$ ls -l
+total 0
+user@raju:~/d1$ ls -ltr
+total 0
+user@raju:~/d1$ ls -a
+.  ..
+
+
+*27. which - Locate a command
+user@raju:~/d1$ which -a t1
+user@raju:~/d1$ which -a d1
+
+*28. du - Estimate disk usage is blocks
+user@raju:~/d1$ du
+4
+
+*29. df - Show the number of free blocks for the mounted file system	.
+user@raju:~/d1$ df -l
+Filesystem     1K-blocks      Used Available Use% Mounted on
+udev             3910048         0   3910048   0% /dev
+tmpfs             790156      2168    787988   1% /run
+/dev/nvme0n1p2 244506940 110176192 121837692  48% /
+tmpfs            3950776         0   3950776   0% /dev/shm
+tmpfs               5120         4      5116   1% /run/lock
+tmpfs            3950776         0   3950776   0% /sys/fs/cgroup
+/dev/loop0         65536     65536         0 100% /snap/core20/2182
+/dev/loop4           128       128         0 100% /snap/bare/5
+/dev/loop1         76032     76032         0 100% /snap/core22/1122
+/dev/loop2        358144    358144         0 100% /snap/gnome-3-38-2004/140
+/dev/loop3         66816     66816         0 100% /snap/gtk-common-themes/1519
+/dev/loop5         93952     93952         0 100% /snap/gtk-common-themes/1535
+/dev/loop6         65536     65536         0 100% /snap/core20/2264
+/dev/loop7         76032     76032         0 100% /snap/core22/1380
+/dev/loop9         13312     13312         0 100% /snap/snap-store/1113
+/dev/loop8         40064     40064         0 100% /snap/snapd/21184
+/dev/loop11        41472     41472         0 100% /snap/snapd/20671
+/dev/loop10       358144    358144         0 100% /snap/gnome-3-38-2004/143
+/dev/loop12        12672     12672         0 100% /snap/snap-store/959
+/dev/nvme0n1p1    523248      6224    517024   2% /boot/efi
+tmpfs             790152        52    790100   1% /run/user/1000
+
+
+*30. cal- Displays the calendar.
+user@raju:~/d1$ cal 5 2024
+      May 2024        
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+
+*31. date - Displays the system date and time.
+user@raju:~$ date
+Wednesday 24 April 2024 09:59:57 PM IST
+
+*32.find - Used to search for files and directories as mentioned in the ‘expression’
+user@raju:~$ find ./Desktop/IT/exproj.tex
+./Desktop/IT/exproj.tex
+
+
+*33. sudo - Execute a command as some other user or super-user
+user@raju:~$ sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+
+
+
+
+
+
+                  
+
