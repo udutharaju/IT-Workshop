@@ -1,0 +1,363 @@
+
+****  Grep command in Unix  ****
+
+
+//creating a file and inserting data into it
+user@raju:~$ touch grepf1.txt
+user@raju:~$ cat grepf1.txt
+user@raju:~$ cat>grepf1.txt
+This is kavya
+This is Rgukt basar
+Welcome to ubuntu               
+unix commands           
+linux commands
+^C
+
+
+** displays the matched lines
+user@raju:~$ grep "is" grepf1.txt
+This is kavya
+This is Rgukt basar
+user@raju:~$ grep "x" grepf1.txt
+unix commands 
+linux commands
+user@raju:~$ grep "kavya" grepf1.txt
+This is kavya
+
+**'-o' : Print only the matched parts of a matching line, with each such part on a separate output line.
+user@raju:~$ grep -o "is" grepf1.txt
+is
+is
+is
+is
+user@raju:~$ grep -o "^unix" grepf1.txt
+unix
+
+** '-v' : this prints out all the lines that do not matches the pattern
+user@raju:~$ grep -v "is" grepf1.txt
+Welcome to ubuntu
+unix commands 
+linux commands
+
+
+** '-c' : This prints only a count of the lines that match a pattern
+user@raju:~$ grep -c "is" grepf1.txt
+2
+user@raju:~$ grep -c "to" grepf1.txt
+1
+
+
+** '-h' : Display the matched lines, but do not display the filenames.
+user@raju:~$ grep -h "x" grepf1.txt
+unix commands 
+linux commands
+
+
+** '-l' : Displays list of a filenames only.
+user@raju:~$ grep -l "x" grepf1.txt
+grepf1.txt
+
+
+** '-n' : Display the matched lines and their line numbers.
+user@raju:~$ grep -n "x" grepf1.txt
+4:unix commands 
+5:linux commands
+
+
+** '-e' : Specifies expression with this option. Can use multiple times.
+user@raju:~$ grep -e "x" grepf1.txt
+unix commands 
+linux commands
+user@raju:~$ grep -e "t" grepf1.txt
+This is Rgukt basar
+Welcome to ubuntu
+
+
+
+****  Sed Command in Unix  ****
+
+
+** replacing or substituting string
+user@raju:~$ sed 's/kavya/sreeja/' grepf1.txt
+This is sreeja
+This is Rgukt basar
+Welcome to ubuntu
+unix commands 
+linux commands
+user@raju:~$ sed 's/basar/bsr/' grepf1.txt
+This is kavya
+This is Rgukt bsr
+Welcome to ubuntu
+unix commands 
+linux commands
+user@raju:~$ sed 's/Rgukt/iiit/' grepf1.txt
+This is kavya
+This is iiit basar
+Welcome to ubuntu
+unix commands 
+linux commands
+
+
+**Replacing the nth occurrence of a pattern in a line 
+user@raju:~$ sed 's/is/famous/2' grepf1.txt
+This famous kavya
+This famous Rgukt basar
+Welcome to ubuntu
+unix commands 
+linux commands
+
+
+**Replacing the nth occurrence of a pattern in a "nth" line
+user@raju:~$ sed '2s/is/famous/2g' grepf1.txt
+This is kavya
+This famous Rgukt basar
+Welcome to ubuntu
+unix commands 
+linux commands
+user@raju:~$ sed '2s/is/IS/2g' grepf1.txt
+This is kavya
+This IS Rgukt basar
+Welcome to ubuntu
+unix commands 
+linux commands
+
+
+**removes 3rd line 
+user@raju:~$ sed '3d' grepf1.txt
+This is kavya
+This is Rgukt basar
+unix commands 
+linux commands
+
+//insertion
+user@raju:~$ cat>grepf1.txt
+hello world
+welcome ubuntu
+This is kavya
+From Rgukt basar
+these are basic unix and linux commands            
+sorting commands
+^C
+
+
+
+** removes lines from 2 to 4 
+user@raju:~$ sed '2,4d' grepf1.txt
+hello world
+these are basic unix and linux commands
+sorting commands
+
+
+**replaces unix with linux
+user@raju:~$ sed '2,$ s/unix/linux/' grepf1.txt
+hello world
+welcome ubuntu
+This is kavya
+From Rgukt basar
+these are basic linux and linux commands
+sorting commands
+
+
+
+****  Sort Command  ****
+
+
+//creating file and inserting data
+user@raju:~$ touch sortf.txt
+user@raju:~$ cat>sortf.txt
+kavya
+sreeja
+greeshma
+srinivas
+manjula
+chinnari
+^C
+
+
+** sorts in alphabetical order
+user@raju:~$ sort sortf.txt
+chinnari
+greeshma
+kavya
+manjula
+sreeja
+srinivas
+
+
+** sorts in reverse alphabetical order
+user@raju:~$ sort -r  sortf.txt
+srinivas
+sreeja
+manjula
+kavya
+greeshma
+chinnari
+
+
+** '-c' : Checks if the file is already sorted and reports any disorder.
+user@raju:~$ sort -c  sortf.txt
+sort: sortf.txt:3: disorder: greeshma
+
+
+//creation and insertion 
+user@raju:~$ cat>month.txt
+december
+july
+october
+april
+^C
+
+
+** '-M' : sorts by month names
+user@raju:~$ sort -M month.txt
+april
+july
+october
+december
+
+//creation and insertion
+user@raju:~$ cat >numb.txt
+8
+3
+9
+2
+1
+6
+4
+3
+7
+9
+2
+0
+^C
+
+
+** '-n' : Sorts a file numerically (interprets data as numbers).
+user@raju:~$ sort -n numb.txt
+0
+1
+2
+2
+3
+3
+4
+6
+7
+8
+9
+9
+
+
+** '-u' : Sorts and removes duplicate lines, providing a unique sorted list.
+user@raju:~$ sort -u numb.txt
+0
+1
+2
+3
+4
+6
+7
+8
+9
+
+
+** '-nr' : .Sorts a file with numeric data in reverse order. Combines -n and -r options.
+user@raju:~$ sort -nr numb.txt
+9
+9
+8
+7
+6
+4
+3
+3
+2
+2
+1
+0
+
+
+****  AWK command in Unix  ****
+
+
+
+//creation and insertion
+user@raju:~$ cat >awk.txt
+kavya ceo id 1
+sreeja hr id 2
+chinnari manager id 5
+srinivas owner id 3
+manjula staff id 4
+^C
+
+
+** Print the lines which match the given pattern.
+user@raju:~$ awk '/manager/{print}' awk.txt
+chinnari manager id 5
+
+
+** To return the third column/item from file
+user@raju:~$ awk '{print $3}' awk.txt
+id
+id
+id
+id
+id
+
+
+** To count the lines in a file with 3rd column 
+user@raju:~$ awk '{print NR,$3}' awk.txt
+1 id
+2 id
+3 id
+4 id
+5 id
+
+
+** To count the lines in a file with 1st column
+user@raju:~$ awk '{print NR,$1}' awk.txt
+1 kavya
+2 sreeja
+3 chinnari
+4 srinivas
+5 manjula
+
+
+** To count the lines in a file 
+user@raju:~$ awk '{print NR}' awk.txt
+1
+2
+3
+4
+5
+
+
+** To print all data
+user@raju~$ awk '{print n,$0}' awk.txt
+ kavya ceo id 1
+ sreeja hr id 2
+ chinnari manager id 5
+ srinivas owner id 3
+ manjula staff id 4
+
+
+
+****   Shutdown Command  ****
+
+user@raju:~$ shutdown -r +5
+Shutdown scheduled for Wed 2024-04-24 23:36:01 IST, use 'shutdown -c' to cancel.
+user@raju:~$ ^C
+user@raju:~$ sudo shutdown 11:32
+[sudo] password for user: 
+Shutdown scheduled for Thu 2024-04-25 11:32:00 IST, use 'shutdown -c' to cancel.
+user@raju:~$ ^C
+user@raju:~$ sudo shutdown -H
+Shutdown scheduled for Wed 2024-04-24 23:33:11 IST, use 'shutdown -c' to cancel.
+user@raju:~$ ^C
+user@raju:~$ sudo shutdown -P
+Shutdown scheduled for Wed 2024-04-24 23:33:24 IST, use 'shutdown -c' to cancel.
+user@raju~$ ^C
+
+
+
+
