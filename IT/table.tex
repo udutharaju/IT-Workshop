@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[table]{xcolor}
+\title{\textbf{Question 2: Prepare the following in \hspace{0.1cm} \LaTeX}}
+\begin{document}
+	\maketitle
+	\begin{enumerate}
+		\item Prepare the following table with the given formatting:
+		\item Bibliography
+		This document cites several references [One21, Two20].
+	\end{enumerate}
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			\multicolumn{4}{|c|}{\textbf{Measuremnt Data}}\\
+			\hline
+			%\multirow{2}[2]{width}[0.2cm]{sample}
+			\cline{1-1}
+			\textbf{sample}&\multicolumn{3}{|c|}{\textbf{Measuremnts}}\\
+			
+			\cline{2-4}
+			& \textbf{Length(cm)}&\textbf{width(cm)}&\textbf{Height(cm)}\\
+			\hline
+			A&5.5&3.2&\cellcolor{yellow}2.8\\
+			\hline
+			B&4.0&\cellcolor{blue}3.8&2.5\\
+			\hline
+			C&5.3&3.5&\cellcolor{green}3.0\\
+			\hline
+			D&\cellcolor{red}5.3&3.5&2.6\\
+			\hline
+			
+			
+			
+			
+			
+		\end{tabular}
+		\caption{ Data for the measurements with highlighted important values.}
+	\end{table}
+	
+	\textbf {References}
+	
+	\vspace{0.5cm}
+	
+	[One21] Author One. Book Title One. Publisher One, 2021.
+	
+	[Two20] Author Two. Article title two. Journal Name, 2020.
+	
+\end{document}

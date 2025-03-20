@@ -1,0 +1,14 @@
+import numpy as np
+from matplotlib import pyplot as plt
+x = np.arange(0,3*3.14,0.2)
+y = np.sin(x)
+
+plt.subplot(2,1,1)
+plt.scatter(x,y,color = "blue",linestyle = "dotted",linewidth = 0.1)
+x = np.arange(0,3*3.14,0.2)
+y = np.cos(x)
+plt.subplot(2,1,1)
+plt.scatter(x,y,color = "red",linestyle = "dashed")
+plt.title("scatter plot of Data")
+plt.show()
+

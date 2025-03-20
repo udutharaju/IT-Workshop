@@ -1,0 +1,414 @@
+udutha@udutha-raju:~$ ftp dlpuser@ftp.dlptest.com
+Trying [64:ff9b::2cf1:42ad]:21 ...
+Connected to ftp.dlptest.com.
+220 Welcome to the DLP Test FTP Server
+331 Please specify the password.
+Password: 
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+229 Extended Passive Mode Entered (|||1130|).
+150 Here comes the directory listing.
+-rw-r--r--    1 1001     1001            0 Mar 28 09:40 actorstoday.txt
+-rw-r--r--    1 1001     1001            0 Mar 28 09:40 actorstomorrow.txt
+-rw-r--r--    1 1001     1001      2265115 Mar 28 09:40 sample form with acrofield.pdf
+-rw-r--r--    1 1001     1001          144 Mar 28 09:40 test.zip
+226 Directory send OK.
+ftp> get actorstoday.txt
+local: actorstoday.txt remote: actorstoday.txt
+229 Extended Passive Mode Entered (|||1028|).
+150 Opening BINARY mode data connection for actorstoday.txt (0 bytes).
+     0        0.00 KiB/s 
+226 Transfer complete.
+ftp> mkdir
+(directory-name) raju
+257 "/raju" created
+ftp> cibO1IKVPqipvQ
+
+
+
+
+
+
+
+udutha@udutha-raju:~$  ssh rajuudutha@tty.sdf.org
+rajuudutha@tty.sdf.org's password: 
+Connection to tty.sdf.org closed.
+udutha@udutha-raju:~$ ssh rajuudutha@tty.sdf.org
+rajuudutha@tty.sdf.org's password: 
+
+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+=-
+  This host is named in honor of the brilliant hacker and friend
+
+                       -= SHIMIZU Ryo =-
+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+-+=+=-
+
+[ 'rajuudutha' will expire in 665 days - Please 'validate' your account soon ]
+
+Please press your BACKSPACE key: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================
+SDF host uptime report for Seattle WA, Dallas TX (USA) and Germany (EU)
+             Please use 'tty.sdf.org' for general access
+=======================================================================
+
+SERVER          DAYS+HOUR:MIN       USERS   MACHINE LOAD
+----------------------------------------------------------------------
+9p             up  23+14:35,   12 users,  load:   0.00,   0.00,   0.00
+aNONradio      up  181+6:30,   51 users,  load:   0.10,   0.24,   0.29
+faeroes        up  63+08:37,   96 users,  load:   2.22,   2.29,   2.30
+iceland        up  63+11:59,   49 users,  load:   0.72,   1.44,   1.75
+jitsi          up  33+15:45,  782 users,  load:   6.55,   6.52,   7.01
+ma             up   56+8:49,    0 users,  load:   5.58,   5.97,   6.38
+matrix         up  54+12:21,  306 users,  load:   2.45,   3.10,   2.88
+miku           up  63+11:57,    3 users,  load:   0.08,   0.04,   0.00
+mx             up  63+08:59,  310 users,  load:   1.32,   1.89,   2.06
+norge          up  63+08:34,   93 users,  load:   0.00,   0.00,   0.00
+otaku          up  38+15:55,   54 users,  load:   0.11,   0.21,   0.34
+pixelfed       up  183+1:27, 2057 users,  load:   0.54,   0.42,   0.32
+rie            up  63+11:56,   73  user,  load:   1.14,   1.20,   1.18
+ryo            up  63+11:38,   80 users,  load:   0.21,   0.30,   0.33
+sdf            up  25+01:40,  132 users,  load:   1.93,   2.09,   2.29
+sdfeu          up 629+06:00,   32 users,  load:   2.66,   2.93,   3.08
+sverige        up  63+11:57,    8 users,  load:   0.13,   0.20,   0.24
+unix50         up  181+6:29,   91 users,  load: 116.87, 117.10, 117.19
+vps3           up 181+06:21,   49 users,  load:   0.05,   0.41,   0.96
+vps9           up 182+16:48,   17 users,  load:   5.99,   5.97,   5.83
+                             4295 total
+(continue)
+The Moon is Waning Gibbous (91% of Full)
+                 .------------
+             .--'  o     . .   `-
+          .-'   .    O   .       . `
+       .-'@   @@@@@@@   .  @@@@@      
+      /@@@  @@@@@@@@@@@   @@@@@@@   .  
+    ./    o @@@@@@@@@@@   @@@@@@@       
+   /@@  o   @@@@@@@@@@@.   @@@@@@@   O   
+  /@@@@   .   @@@@@@@o    @@@@@@@@@@     @
+  |@@@@@               . @@@@@@@@@@@@@ o @
+ /@@@@@  O  `.-./  .      @@@@@@@@@@@@    @      Full Moon +    
+ | @@@@    --`-'       o     @@@@@@@@ @@@@       3  2:57:24
+ |@ @@@        `    o      .  @@   . @@@@@@      Last Quarter - 
+ |       @@  @         .-.     @@@   @@@@@@      4 17:16:48
+ \  . @        @@@     `-'   . @@@@   @@@@ 
+  |      @@   @@@@@ .           @@   .    
+  \     @@@@  @\@@    /  .  O    .     o  
+   \  o  @@     \ \  /         .    .    
+    `\     .    .\.-.___   .      .   .-
+      \           `-'                `-
+       `-.   o   / |     o    O   .   
+          `-.   /     .       .    .
+             `--.       .      .-
+             
+             
+                 `------------
+(continue)
+[12-Mar-24 23:55:30 lycanthropene       axonohydrolia                  outer space]
+% Casino owners don't want you to know this one special trick…
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[16-Mar-24 14:56:52    lohang              LohanG                    Sri Lanka]
+% Happy weekend SDF :)
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[17-Mar-24 00:29:41    neural              neural                        Italy]
+% Saying hello from Italy! ;)
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[17-Mar-24 01:59:32        tf                 Tom                  Connecticut]
+% Ciao!
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[18-Mar-24 03:26:29 rodiongork              Rodion                    st-Pete's]
+% From Italy? L'Italiano vero? or guesting there? drop a message at bboard!
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[19-Mar-24 20:56:14  amedrado       Adler Medrado            Sao Paulo, Brazil]
+% Hello friends.
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[20-Mar-24 07:10:17 burgertron               Grant                   Denton, TX]
+% Checking in again, what's up gamers?
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[20-Mar-24 14:05:53  somedude            somedude                Flin Flon, MB]
+% Been playing cataclysmdda again. Having a blast.
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[20-Mar-24 21:25:46     kosan               Kosan                      Germany]
+% Wishing a happy Newroz to those who celebrate it! ^^
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[22-Mar-24 05:36:16     sh0rk               sh0rk            GA, United States]
+% hey guys, im new to doing unix and stuff but this is really cool and i like using it! how yall doing?
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[22-Mar-24 11:31:20 rodiongork              Rodion                    St-Pete's]
+% Hi Sh0rk, we are fine, thanks, don't miss "bboard" and feel free to tell more about how you come here :)
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[22-mar-24 13:22:19     peron         Juan Perón             Puerta de Hierro]
+% The PSU may get energized, but the real power grows out from the Ethernet port.
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[22-Mar-24 17:13:26 naterator           naterator               Frisco, TX, US]
+% Hi from Frisco! Thanks for being awesome, SDF!
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[23-Mar-24 13:47:00  claudiom            ClaudioM           Homestead, FL, USA]
+% WelCOM, sh0rk! Be sure to hop on COM as well and say hi in the aNONradio room! o/
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[25-Mar-24 18:17:35 lycanthropene          weretomato                    NERV Alba]
+% Everyone gets hugged and turns into Irn-Bru.
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[26-Mar-24 08:52:49 tusharhero          tusharhero                             ]
+% Hey guys, checkout my new blog https://tusharhero.codeberg.page/ Any feedback would be appreciated ^^
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[26-Mar-24 12:02:30        tf                 Tom                      CT, USA]
+% I like the minimalist style, tusharhero. Very nice!
+7736 guestbook entries.
+
+Type 'help' for Commands.
+Type 'com' to chat with other users.
+Type 'ttytter' to listen to Twitter Tweets anonymously.
+Type 'mud' to play the SDFmud.
+Type 'mkhomepg' to set up your personal website.
+
+Did you know you can become a permanent LIFETIME member of SDF
+by making a onetime donation of $36?  Type 'arpa' for more info!
+
+ryo:/sdf/udd/r/rajuudutha> ^A  
+
+SDF Membership <membership@sdf.org>
+	
+15:16 (16 minutes ago)
+ 
+ 
+>>>>>>>>>>> email <<<<<<<<<<<<<<<<<
+ 
+ 
+ 
+ 
+ 
+ 
+ 	
+to
+Welcome rajuudutha to the SDF.ORG and Remote Learning Lab!
+
+Your class instructor or SDF.ORG has set up the following:
+SDF Username:  rajuudutha
+SDF Password:  cibO1IKVPqipvQ
+
+Please login to your account via the following methods:
+
+ Linux or UNIX use:  ssh rajuudutha@tty.sdf.org
+ MacOS: use Terminal.App and follow the method above
+ Windows: use putty.exe and enter the Host Name "tty.sdf.org"
+ Mobile: Find an SSH app for your device
+
+Need help NOW? Check out irc.sdf.org #helpdesk
+               Join our QQ Chat Group: 513706123
+and the SDF Member Contributed Tutorials at https://sdf.org/?tutorials
+
+We also host social Mastodon, PixelFed, Peertube, Matrix and GIT instances:
+You can join at https://mastodon.sdf.org
+                https://pixelfed.sdf.org
+                https://lemmy.sdf.org
+                https://ttrss.sdf.org
+                https://toobnix.org
+                https://matrix.sdf.org
+                https://git.sdf.org
+
+Are you a DJ or music lover? Check out our free RADIO service: https://aNONradio.net
+
+Are you an Amateur Radio Operator (HAM)? Check out https://sdfarc.org
+
+See you on SDF soon!
+
+
+
+
+
+
+
+
+
+udutha@udutha-raju:~$ cat> grepfile.txt
+
+wel come to ubuntu
+unix and linux           
+rgukt is good collage 
+^C
+udutha@udutha-raju:~$ grep 'unix' grepfile.txt
+unix and linux
+udutha@udutha-raju:~$ gre -h 'and' grepfile.txt
+Command 'gre' not found, did you mean:
+  command 'grv' from snap grv (0.3.2-5-gcffa246)
+  command 'grc' from deb grc (1.13.1-1)
+  command 'gpre' from deb firebird3.0-utils (3.0.8.33535.ds4-1ubuntu2)
+  command 'tre' from deb tre-command (0.3.6-2)
+  command 'grep' from deb grep (3.7-1build1)
+  command 'gie' from deb proj-bin (8.2.1-1)
+  command 'grn' from deb groff (1.22.4-8build1)
+  command 'gle' from deb gle-graphics (4.2.5-9)
+  command 'ge' from deb pvm-examples (3.4.6-3.2)
+  command 're' from deb re (0.1-7build1)
+See 'snap info <snapname>' for additional versions.
+udutha@udutha-raju:~$ grep -h 'and' grepfile.txt
+unix and linux
+udutha@udutha-raju:~$ grep -n 'one' grepfile.txt
+udutha@udutha-raju:~$ grep -n 'good' grepfile.txt
+3:rgukt is good collage 
+udutha@udutha-raju:~$ grep -e 'is' -e grepfile.txt
+
+
+sorting  commands 
+udutha@udutha-raju:~$ cat>numbers.txt
+1
+9
+63
+24
+78
+9
+0
+^C
+udutha@udutha-raju:~$ sort numbers.txt
+0
+1
+24
+63
+78
+9
+9
+udutha@udutha-raju:~$ 
+
+sorting string commands 
+udutha@udutha-raju:~$ cat> monthfile.txt
+feb
+may
+nov     
+june
+august
+dec
+^C
+udutha@udutha-raju:~$ sort  monthfile.txt
+august
+dec
+feb
+june
+may
+nov
+
+duplicate  delete numbers 
+udutha@udutha-raju:~$ cat>numbers.txt
+337
+53
+66
+66
+66
+76
+212
+
+command for duplicate -u/-f
+udutha@udutha-raju:~$ sort -u numbers.txt
+212
+337
+53
+66
+76
+
+reverse command -r
+udutha@udutha-raju:~$ sort -r numbers.txt
+76
+66
+66
+66
+53
+337
+212
+udutha@udutha-raju:~$ 
+utha@udutha-raju:~$ cat> sedfile.txt
+rgukt
+unix
+linux is a command
+ubuntu
+raju
+UDUTHA 
+^C
+udutha@udutha-raju:~$ sed 's/rgukt/RGUKT/' sedfile.txt
+RGUKT
+unix
+linux is a command
+ubuntu
+raju
+UDUTHA
+udutha@udutha-raju:~$ sed 's/raju/RAJU/' sedfile.txt
+rgukt
+unix
+linux is a command
+ubuntu
+RAJU
+UDUTHA
+udutha@udutha-raju:~$ 
+
+...>DELETE
+udutha@udutha-raju:~$ sed '/UDUTHA/d' sedfile.txt
+rgukt
+unix
+linux is a command
+ubuntu
+raju
+
+udutha@udutha-raju:~$ cat> awkfile.txt
+vinay  storage od 7422    
+venky window od 8762
+raju linux od 7654
+manasa unix od 7654
+
+udutha@udutha-raju:~$ awk '{print $1}' awkfile.txt
+vinay
+venky
+raju
+manasa
+
+
+
+
+
+
+ 
+
+
+
+
+
+	
+

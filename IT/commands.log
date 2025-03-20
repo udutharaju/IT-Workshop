@@ -1,0 +1,259 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.7.19)  24 JUL 2024 12:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**commands.tex
+(./commands.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 (
+     base) user@minion:~$ cat >ls_output.txt
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no : in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no " in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 (base) user@minion:~$ grep -c "file" ls_
+                                             output.txt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.12 (base) user@minion:~$ sort -nr ls_
+                                       output.txt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...) user@minion:~$ awk '{print n,$1,$2}' ls_
+                                                  output.txt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 ... user@minion:~$ sed 's/file/document/' ls_
+                                                  output.txt
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 (base) user@minion:~$ ^
+                            C
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--35
+[]
+ []
+
+
+Overfull \hbox (23.78008pt too wide) in paragraph at lines 2--35
+\OML/cmm/m/it/10 cat >
+ []
+
+
+Overfull \hbox (350.77626pt too wide) in paragraph at lines 2--35
+\OML/cmm/m/it/10 ls[]utput:txtNameTypeSizefile\OT1/cmr/m/n/10 1\OML/cmm/m/it/10
+ text\OT1/cmr/m/n/10 123\OML/cmm/m/it/10 file\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
+image\OT1/cmr/m/n/10 456\OML/cmm/m/it/10 file\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 
+text\OT1/cmr/m/n/10 789\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 fo
+lder \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (61.59372pt too wide) in paragraph at lines 2--35
+\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 folder \OMS/cmsy/m/n/10 ^
+^@[]
+ []
+
+
+Overfull \hbox (95.19016pt too wide) in paragraph at lines 2--35
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 base\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 user\OT
+1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n/10 :  []$
+ []
+
+
+Overfull \hbox (144.05531pt too wide) in paragraph at lines 2--35
+[]\OML/cmm/m/it/10 utput:txt\OT1/cmr/m/n/10 3(\OML/cmm/m/it/10 base\OT1/cmr/m/n
+/10 )\OML/cmm/m/it/10 user\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n
+/10 :  []$
+ []
+
+
+Overfull \hbox (342.90819pt too wide) in paragraph at lines 2--35
+[]\OML/cmm/m/it/10 utput:txtNameTypeSizefile\OT1/cmr/m/n/10 3\OML/cmm/m/it/10 t
+ext\OT1/cmr/m/n/10 789\OML/cmm/m/it/10 file\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 im
+age\OT1/cmr/m/n/10 456\OML/cmm/m/it/10 file\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 te
+xt\OT1/cmr/m/n/10 123\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 fold
+er \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (54.86774pt too wide) in paragraph at lines 2--35
+\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 folder \OMS/cmsy/m/n/10 ^
+^@
+ []
+
+
+Overfull \hbox (95.19016pt too wide) in paragraph at lines 2--35
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 base\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 user\OT
+1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n/10 :  []$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 2--35
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ;$
+ []
+
+
+Overfull \hbox (412.51033pt too wide) in paragraph at lines 2--35
+[]\OML/cmm/m/it/10 utput:txtNameTypefile\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 textf
+ile\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 imagefile\OT1/cmr/m/n/10 3\OML/cmm/m/it/10
+ textdir\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 folderdir\OT1/cmr/m/n/10 2\OML/cmm/m/
+it/10 folder\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 base\OT1/cmr/m/n/10 )\OML/cmm/m/i
+t/10 user\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n/10 :  []$
+ []
+
+
+Overfull \hbox (420.6078pt too wide) in paragraph at lines 2--35
+[]\OML/cmm/m/it/10 utput:txtNameTypeSizedocument\OT1/cmr/m/n/10 1\OML/cmm/m/it/
+10 text\OT1/cmr/m/n/10 123\OML/cmm/m/it/10 document\OT1/cmr/m/n/10 2\OML/cmm/m/
+it/10 image\OT1/cmr/m/n/10 456\OML/cmm/m/it/10 document\OT1/cmr/m/n/10 3\OML/cm
+m/m/it/10 text\OT1/cmr/m/n/10 789\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 1\OML/cmm/
+m/it/10 folder \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (54.86774pt too wide) in paragraph at lines 2--35
+\OML/cmm/m/it/10 dir\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 folder \OMS/cmsy/m/n/10 ^
+^@
+ []
+
+
+Overfull \hbox (95.19016pt too wide) in paragraph at lines 2--35
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 base\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 user\OT
+1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n/10 :  []$
+ []
+
+
+Overfull \hbox (101.91614pt too wide) in paragraph at lines 2--35
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 base\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 user\
+OT1/cmr/m/n/10 @\OML/cmm/m/it/10 minion \OT1/cmr/m/n/10 :  []$ 
+ []
+
+)
+! Emergency stop.
+<*> commands.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 478051
+ 422 string characters out of 5840943
+ 1850330 words of memory out of 5000000
+ 20248 multiletter control sequences out of 15000+600000
+ 512287 words of font info for 32 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 18i,2n,12p,85b,57s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

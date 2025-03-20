@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Print Application / Acknowlegement</title>
+
+
+
+
+<link href="Print%20Application%20_%20Acknowlegement_files/bootstrap.min.css" rel="stylesheet">
+<link href="Print%20Application%20_%20Acknowlegement_files/font-awesome.min.css" rel="stylesheet">
+<link href="Print%20Application%20_%20Acknowlegement_files/animate.css" rel="stylesheet"> 
+<link href="Print%20Application%20_%20Acknowlegement_files/responsive.css" rel="stylesheet">
+<link href="Print%20Application%20_%20Acknowlegement_files/digitalFornt.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="https://telanganaepass.cgg.gov.in/WebsiteMain/images/favicon.ico">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
+<link id="theme-stylesheet" rel="stylesheet" type="text/css" href="Print%20Application%20_%20Acknowlegement_files/main.css">
+<link rel="stylesheet" type="text/css" href="Print%20Application%20_%20Acknowlegement_files/open-sans.css">
+
+<link rel="stylesheet" href="Print%20Application%20_%20Acknowlegement_files/stylesheet_002.css" type="text/css">
+<link rel="stylesheet" href="Print%20Application%20_%20Acknowlegement_files/stylesheet.css" type="text/css">
+<link rel="stylesheet" href="Print%20Application%20_%20Acknowlegement_files/stylesheet_003.css" type="text/css">
+<link rel="stylesheet" href="Print%20Application%20_%20Acknowlegement_files/stylesheet_004.css" type="text/css">
+<link rel="stylesheet" href="Print%20Application%20_%20Acknowlegement_files/stylesheet_005.css" type="text/css">
+
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+
+<script src="Print%20Application%20_%20Acknowlegement_files/jquery.js"></script>
+ <script type="text/javascript">
+
+	 function opennewindow(w,h){
+	
+		var left = (screen.width/2)-(w/2);
+		var top = (screen.height/2)-(h/2);
+		
+	       	 var url="/login.do?actionpart=getData";
+     		// popup =window.open(url,"epasswindow","width="+w+",height="+h+",left="+left+",top="+top+",toolbar=0,scrollbars=0");
+     		popup=window.open(url,'epasswindow',"width="+w+",height="+h+",left="+left+",top="+top+",menubar=no,scrollbars=yes,toolbar=no,location=no,directories=no,resizable=no,top=50,left=50");
+      		popup.focus();
+      		
+      }
+      
+       function opennewindow1(w,h){
+	
+		var left = (screen.width/2)-(w/2);
+		var top = (screen.height/2)-(h/2);
+		
+	       	 var url="/dashboard.html";
+     		// popup =window.open(url,"epasswindow","width="+w+",height="+h+",left="+left+",top="+top+",toolbar=0,scrollbars=0");
+     		popup=window.open(url,'epasswindow',"width="+w+",height="+h+",left="+left+",top="+top+",menubar=no,scrollbars=yes,toolbar=no,location=no,directories=no,resizable=no,top=50,left=50");
+      		popup.focus();
+      		
+      }
+      
+      
+</script>
+<!-- base href="https://telanganaepass.cgg.gov.in/" --></head>
+
+<!--/head-->
+
+<body>
+
+
+
+
+
+
+
+<div class="navbg">
+  <div id="main-nav" role="navigation">
+  <!-- Sample menu definition -->
+  <div class="container">
+    <div class="row">
+     
+
+      <div class="col-sm-8">
+         <a href="#" onclick="#main-menu(display:block);" class="mobilemenu" style="margin:auto; width:100px;"><i class="fa fa-bars">Menu </i> </a>
+        <ul id="main-menu" class="sm sm-blue pull-left">
+          <li><a href="https://telanganaepass.cgg.gov.in/"><i class="fa fa-home" style="font-size:20px; padding:5px 0px; line-height:4px;"> </i></a></li>
+          <li><a href="https://telanganaepass.cgg.gov.in/AboutUs.do">About Us</a>
+          
+           </li>
+          <li><a href="https://telanganaepass.cgg.gov.in/Scholarships.do">Scholarships </a></li>
+          <li><a href="https://telanganaepass.cgg.gov.in/SchemesPolicies.do">Schemes &amp; Policies </a>
+          <ul>
+                    <li><a href="#">Link</a></li>
+          </ul>
+          
+          </li>
+          <!-- <li ><a href="tenders&downloads.html">Tenders & Downloads</a>
+          <ul>
+                    <li><a href="#">Link</a></li>
+          </ul>
+          
+          </li> -->
+          <li><a href="https://telanganaepass.cgg.gov.in/ContactUs.do"><i class="fa fa-phone-square"> </i> &nbsp; Contact Us </a></li>
+          <li><a href="https://telanganaepass.cgg.gov.in/Awards.do"><i class="fa fa-trophy" aria-hidden="true"></i> &nbsp; Awards</a></li>
+          <li>
+								<a href="https://telanganaepass.cgg.gov.in/downloads/SCDD-RTIManual.pdf" target="new">RTI Manual</a>
+							</li>
+
+							<li>
+								<a href="https://telanganaepass.cgg.gov.in/Sitemap.do"> &nbsp;Site Map</a>
+							</li>
+
+        </ul>
+      </div>
+       <div class="col-sm-4">
+         <!-- <div class="input-group">
+            <input class="form-control" placeholder="Search" name="q" type="text">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div> -->
+          <ul id="main-menu" class="sm sm-blue pull-right">
+          <li><a href="#" onclick="javascript:opennewindow(1024,768);"><i class="glyphicon glyphicon-log-in"></i> &nbsp; Official Login</a></li>
+          
+          </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="header-middle">
+  <div class="container">
+    <div class="row" style="padding:0px; ">
+      <div class="logo">
+        <div class="col-md-10 col-sm-9 col-xs-9"> <a href="https://telanganaepass.cgg.gov.in/"> <img src="Print%20Application%20_%20Acknowlegement_files/epass_logo.png" alt="ap logo" class=""> </a>
+          
+      </div>
+     
+    
+    </div>
+  </div>
+</div>
+
+<!--/header-middle-->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		<title>Print - Application</title>
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+		<meta http-equiv="description" content="This is my page">
+		<script type="text/javascript">
+	function FnPrint()
+	{
+		but.style.display="none";
+		window.print();
+		but.style.display="block";
+	}
+	function getCalendarDate()
+{
+   var months = new Array(13);
+   months[0]  = "January";
+   months[1]  = "February";
+   months[2]  = "March";
+   months[3]  = "April";
+   months[4]  = "May";
+   months[5]  = "June";
+   months[6]  = "July";
+   months[7]  = "August";
+   months[8]  = "September";
+   months[9]  = "October";
+   months[10] = "November";
+   months[11] = "December";
+   var now         = new Date();
+   var monthnumber = now.getMonth();
+   var monthname   = months[monthnumber];
+   var monthday    = now.getDate();
+   var year        = now.getYear();
+   if(year < 2000) { year = year + 1900; }
+   var dateString = monthname +
+                    ' ' +
+                    monthday +
+                    ', ' +
+                    year;
+   return dateString;
+} // function getCalendarDate()
+
+function getClockTime()
+{
+   var now    = new Date();
+   var hour   = now.getHours();
+   var minute = now.getMinutes();
+   var second = now.getSeconds();
+   var ap = "AM";
+   if (hour   > 11) { ap = "PM";             }
+   if (hour   > 12) { hour = hour - 12;      }
+   if (hour   == 0) { hour = 12;             }
+   if (hour   < 10) { hour   = "0" + hour;   }
+   if (minute < 10) { minute = "0" + minute; }
+   if (second < 10) { second = "0" + second; }
+   var timeString = hour +
+                    ':' +
+                    minute +
+                    ':' +
+                    second +
+                    " " +
+                    ap;
+   return timeString;
+}
+			function getClockTime()
+{
+   var now    = new Date();
+   var hour   = now.getHours();
+   var minute = now.getMinutes();
+   var second = now.getSeconds();
+   var ap = "AM";
+   if (hour   > 11) { ap = "PM";             }
+   if (hour   > 12) { hour = hour - 12;      }
+   if (hour   == 0) { hour = 12;             }
+   if (hour   < 10) { hour   = "0" + hour;   }
+   if (minute < 10) { minute = "0" + minute; }
+   if (second < 10) { second = "0" + second; }
+   var timeString = hour +
+                    ':' +
+                    minute +
+                    ':' +
+                    second +
+                    " " +
+                    ap;
+   return timeString;
+} // function getClockTime()
+	
+	
+	
+function printReport() 
+		{
+			var sOption="toolbar=no,location=no,directories=no,menubar=no,";
+			sOption+="scrollbars=yes,left=0,top=0,width=750,height=800";
+			var winprint=window.open("","",sOption); 
+			winprint.document.open(); 
+			winprint.document.write('<html><head></head>'); 
+			winprint.document.write('<body><table align="center" style="border: 0px solid;"  bgcolor="#FFFFFF"  cellspacing="2" cellpadding="2">');  
+			var sWinHTML=document.getElementById('appltable').innerHTML; 
+			winprint.document.write('<tr><td valign="top" bgcolor="#FFFFFF">' + sWinHTML + '</td></tr>'); 
+			winprint.document.write('</table>'); 
+			winprint.document.write('</body></html>'); 
+			winprint.document.close(); 
+			parent.window.focus(); 
+			winprint.print(); 
+			winprint.close(); 
+		} 	
+	
+	
+	</script>
+		<style type="text/css">
+<!--
+.tabhead {
+	font: 16px/ 20px Arial, Helvetica, sans-serif;
+}
+
+.tabdata {
+	font: 14px/ 20px Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+	
+	
+	   <br>
+		
+		
+			
+			
+			
+			<div id="appltable">
+			
+				<table align="center" border="1" cellpadding="2" cellspacing="0" width="950" style="border: 1px solid #000000;">
+					<tbody><tr>
+						<td colspan="6">
+							<table border="0" cellpadding="0" cellspacing="0" width="100%">
+								<tbody><tr>
+									<td width="25%" align="center">
+										<p style="margin-right: 90px">
+											<img src="Print%20Application%20_%20Acknowlegement_files/LOGO.gif" alt="LOGO" height="90" width="90">
+										</p>
+									</td>
+									<td align="center" class="heading1" valign="top">
+										          Government of Telangana
+
+										<h3>
+											<strong><b>Department of Backward Classes </b> </strong>
+										</h3>
+										Student Application cum Verification Report for
+										<br>
+										Post-Matric Scholarship
+										<font color="#FF3333" size="2"> <b> 
+										Renewal
+										2024-25 </b> </font>
+									</td>
+									<td width="25%" valign="middle" align="center">
+										<table border="0" cellpadding="0" cellspacing="0" width="100px" height="80px" style="border: 1px solid #000000;">
+											<tbody><tr>
+												<td align="center">
+											
+												
+											 <img alt="photo" src="Print%20Application%20_%20Acknowlegement_files/PreviewPage.jpeg" style="width: 3.5cm; height: 4.5cm;">
+													
+														
+												</td>
+											</tr>
+										</tbody></table>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+					<tr class="tabdata">
+						<td nowrap="nowrap" colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">1. Application No:</font>
+
+
+								<b>2024 1132 9891 </b>
+							</p>
+						</td>
+						<td nowrap="nowrap" colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">2. Application Date:</font>
+
+
+								<b>15-12-2024 </b>
+							</p>
+						</td>
+						<td nowrap="nowrap" colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">3. Caste / Sub Caste:</font>
+
+
+								<b>BC-D / Yadava (Golla) &nbsp;  </b>
+							</p>
+						</td>
+
+					</tr>
+
+					<tr class="tabdata">
+						<td colspan="5">
+							<p style="margin-right: 12px">
+								<font size="2">4. Student Name :</font>
+
+
+								<b>UDUTHA RAJU </b>
+							</p>
+						</td>
+						<td colspan="1">
+
+							<font size="2"> 5. Gender :</font>
+
+
+							<b>Male </b>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" class="tabdata">
+							<p style="margin-right: 12px">
+								<font size="2">6. Father / Mother Name :</font>
+
+
+								<b>UDUTHA RAVI </b>
+							</p>
+						</td>
+
+					</tr>
+					<tr class="tabdata">
+						<td colspan="6">
+							<p style="margin-right: 12px">
+								<font size="2">7. Address &amp; Mobile No :</font>
+
+
+								<b>3-85 ,Siddipet (Rural) , Pullur ,SIDDIPET &amp; xxxxxx5964
+								</b>
+							</p>
+						</td>
+					</tr>
+					<tr class="tabdata">
+						<td colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">8. SSC HT No :</font>
+
+
+								<b>2018103385  </b>
+							</p>
+						</td>
+						<td colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">9. Pass Year -Pass Type :</font>
+
+								<b>2020-Regular  </b>
+							</p>
+						</td>
+						<td colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">10. Date of Birth:</font>
+
+
+								<b>06-06-2003  </b>
+							</p>
+						</td>
+					</tr>
+
+					<tr class="tabdata">
+						<td colspan="3">
+							<p style="margin-right: 12px">
+								<font size="2">11.Family Annual Income</font> (in Rs.):
+
+
+								<b>98000 </b>
+							</p>
+						</td>
+						<td colspan="3">
+							<p style="margin-right: 12px">
+								<font size="2">12. UID(aadhar) :</font>
+								<b>xxxxxxxx4325 </b>
+							</p>
+						</td>
+
+						
+					</tr>
+					<tr class="tabdata">
+						<td colspan="6">
+							<p style="margin-right: 12px">
+								<font size="2">13. Income Certificate Details: </font>
+
+								
+									<b> ,  ,   </b>
+								
+							</p>
+						</td>
+					</tr>
+					<tr class="tabdata">
+						<td colspan="6" width="100%">
+							14.College Details :
+							<b>RGUKT BASAR (as per AICTE approval) , Basar,Nirmal , University College ,RAJIV GANDHI UNIVERSITY OF KNOWLEDGE TECHNOLOGIES  </b>
+						</td>
+					</tr>
+
+					<tr class="tabdata">
+						<td colspan="6" width="100%">
+							<p style="margin-right: 12px">
+								<font size="2">15. Course Name /Course Year /Duration of
+									Course :</font>
+
+
+								<b>B.TECH (INTEGRATED-6Yrs)&nbsp;/&nbsp;V Yr&nbsp;/&nbsp;6Yrs&nbsp;  </b>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="5" class="tabdata" width="100%">
+							<p style="margin-right: 12px">
+								<font size="2">16. College Admission No / Admission
+									Date(of this year):</font>
+								<b>B200865 / 10-08-2024 </b>
+							</p>
+						</td>
+						<td colspan="1">
+							<p style="margin-right: 12px">
+								<font size="2">17. Distance (in Kms.) :</font>
+
+
+								<b>180 </b>
+							</p>
+						</td>
+					</tr>
+
+					<tr class="tabdata">
+						<td colspan="4">
+							<p style="margin-right: 12px">
+								<font size="2">18. Scholarship Type :</font>
+
+
+								<b>College Attached Hostel </b>
+							</p>
+						</td>
+
+						<td colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">19. DAH Name :</font>
+
+
+								<b>- </b>
+							</p>
+						</td>
+					</tr>
+
+					<tr class="tabdata">
+						<td colspan="4">
+							<p style="margin-right: 12px">
+								<font size="2">20. Bank Name / IFSC Code:</font>
+								
+									<b>-SIDDIPET /IOBA0002399
+									</b>
+								
+							</p>
+						</td>
+						<td class="tabdata" colspan="2">
+							<p style="margin-right: 12px">
+								<font size="2">21. Bank A/c No :</font>
+								<b>239901000011053 </b>
+							</p>
+						</td>
+					</tr>
+				</tbody></table>
+
+				<table align="center" border="1" cellpadding="3" cellspacing="0" width="950" style="border: 1px solid #000000;">
+					<tbody><tr>
+						<td colspan="6">
+							<table width="100%" border="0" cellspacing="0" cellpadding="3">
+								<tbody><tr align="center" class="tabhead">
+									<td colspan="7">
+										<u> <font size="3"><strong>I.Declaration</strong> </font>
+										</u>
+									</td>
+								</tr>
+								<tr class="tabdata">
+									<td colspan="7" align="left">
+										<p align="justify">
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I hereby
+											certify that that above information furnished is true. I have
+											not availed any other scholarship for this purpose from any
+											other sources. I shall abide by the terms and conditions of
+											the sanction of the scholarship. If any discrepancies are
+											found later, I hereby abide for refund of the scholarship
+											amounts claimedand also am liable for action by the
+											Department. .
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										&nbsp;
+									</td>
+									<td colspan="4">
+										&nbsp;
+									</td>
+								</tr>
+								<tr class="tabdata">
+									<td width="50%" colspan="3" align="left">
+										<strong>&nbsp;&nbsp;&nbsp; Date :</strong>
+									</td>
+									<td width="50%" colspan="4" align="center">
+										<strong> Signature of the Student<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+
+
+
+
+
+
+
+
+
+
+								<tr>
+									<td colspan="7">
+										&nbsp;
+									</td>
+								</tr>
+							</tbody></table>
+						<!-- </td>
+					</tr>
+				</table> -->
+				</div>
+				
+				
+			
+			
+			
+			
+			<div id="but">
+			<br>
+				<table align="center" cellpadding="0" cellspacing="0" class="border">
+					<tbody><tr>
+						<td>
+						
+						<button type="button" class="btn btn-success" onclick="printReport();"><b>
+				<span class="glyphicon glyphicon-print"></span>&nbsp;Print</b></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+						
+						</td>
+						
+						<td>
+						
+						<button type="button" class="btn btn-success" onclick="javascript:history.back(-1);"><b>
+					<span class="fa fa-arrow-circle-o-left"></span>&nbsp;Back</b></button>
+						
+							
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+			
+			
+			
+		
+		<table cellpadding="0" cellspacing="0" class="border" align="right">
+		<tbody><tr><td colspan="2" align="right">
+										<script type="text/javascript">
+										document.write(getCalendarDate()+' '+getClockTime());
+										</script>December 15, 2024 02:47:39 PM
+		</td></tr>
+		</tbody></table>
+	
+
+
+<br>
+
+
+
+<div class="cleafix"> </div>
+
+
+
+
+
+<div class="footerlinkscontainer">
+ <div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Contact Us</h3>
+					<p>
+					 
+							<!-- For General Issues &nbsp;: &nbsp;<font color="white" style="font-weight: bold;">040-23390228</font><br/>  -->
+							For Technical Issues :<font color="white" style="font-weight: bold;">040-23120311</font> 
+							<br> (Calls answered between 10:30 A.M. to 5 P.M. on Working Days)
+					</p>
+
+					<br> <br>
+				</div>
+
+				<div class="col-sm-4">
+					<ul class="footerlinks">
+						<h3>National Portal Links</h3>
+						<li>
+							<a href="https://scholarships.gov.in/" target="new_Window" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');"> National Scholarship Portal </a>
+						</li>
+						<li>
+							<a href="https://www.india.gov.in/" target="new_window1" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');"> National Portal </a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-4">
+					<h3>Related Web Sites</h3>
+					<ul class="footerlinks">
+					<!-- FirstPage.do -->
+						<li>
+							<a href="http://tgscsp.cgg.gov.in/" target="_new" class="navText" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');">Scheduled Castes Sub Plan-Telangana</a>
+						</li>
+						<li>
+							<a href="http://tgsccfc.cgg.gov.in/" target="_new" class="navText" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');">TG-SCCFC</a>
+						</li>
+						<!-- Index.do -->
+						<li>
+							<a href="http://tgswhostels.cgg.gov.in/" target="_new" class="navText" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');">Scheduled Castes Hostel Monitoring System</a>
+						</li>
+						<li>
+							<a href="http://www.telangana.gov.in/" target="_new" class="navText" onclick="return confirm('This link shall take you to a page / website outside this website.  For any query regarding the contents of the linked page,please contact the webmaster of the concerned website.');">Telangana State Portal</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+</div>
+<div class="footercompany">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">2019 © Social Welfare Department, All rights reserved </div>
+      <div class="col-sm-4" style="vertical-align: middle;">
+      </div>  
+      <div class="col-sm-4">
+         <p style="text-align:right">
+            <a href="https://cgg.gov.in/" target="new_window"> </a> Designed and Developed by <b><a href="https://cgg.gov.in/" target="_new"><img src="Print%20Application%20_%20Acknowlegement_files/cgg_logo.png">
+            </a>
+            </b>
+            </p>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="Print%20Application%20_%20Acknowlegement_files/bootstrap.min.js"></script> 
+<script src="Print%20Application%20_%20Acknowlegement_files/main.js"></script>  
+<script type="text/javascript" src="Print%20Application%20_%20Acknowlegement_files/jquery.easing.min.js"></script>
+<script type="text/javascript" src="Print%20Application%20_%20Acknowlegement_files/jquery.easy-ticker.js"></script>
+<script>
+$(function(){
+    $('.demo1').easyTicker({
+        direction: 'up',
+		visible: 3,
+			controls: {
+			up: '.up',
+			down: '.down',
+			
+		}
+    });
+	
+	  $('.demo2').easyTicker({
+        direction: 'down',
+		visible: 3,
+		controls: {
+			up: '.up',
+			down: '.down',
+			
+		}
+    });
+	
+              
+ 
+});
+
+
+ 
+</script>
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,36 @@
+
+$ cat >ls_output.txt
+Name      Type     Size   
+file1     text     123
+file2     image    456
+file3     text     789
+dir1      folder    -
+dir2      folder    -
+
+$ grep -c "file" ls_output.txt
+3
+$ sort -nr ls_output.txt
+Name      Type     Size   
+file3     text     789
+file2     image    456
+file1     text     123
+dir2      folder    -
+dir1      folder    -
+(base) user@minion:~$ awk '{print n,$1,$2}' ls_output.txt 
+ Name Type
+ file1 text
+ file2 image
+ file3 text
+ dir1 folder
+ dir2 folder
+(base) user@minion:~$ sed 's/file/document/' ls_output.txt
+Name      Type     Size   
+document1     text     123
+document2     image    456
+document3     text     789
+dir1      folder    -
+dir2      folder    -
+(base) user@minion:~$ ^C
+(base) user@minion:~$ 
+
+
